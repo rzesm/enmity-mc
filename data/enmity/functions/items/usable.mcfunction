@@ -65,6 +65,6 @@ execute if entity @s[scores={enmity.use=126,enmity.mana=40..}] at @s run functio
 execute if entity @s[scores={enmity.use=127,enmity.mana=180..}] at @s run function enmity:items/usable/magical_boomstick/use
 execute if entity @s[scores={enmity.use=128,enmity.mana=30..}] at @s run function enmity:items/usable/magical_blaster/use
 execute if entity @s[scores={enmity.use=129,enmity.mana=100..}] at @s run function enmity:items/usable/magical_rifle/use
-execute if entity @s[scores={enmity.use=130}] at @s anchored eyes run function enmity:items/usable/meguwand/raycast
+execute if score @s enmity.use matches 130 if score @s enmity.mana = @s enmity.max_mana at @s anchored eyes run function enmity:items/usable/meguwand/raycast
 
 scoreboard players set @s enmity.use 0

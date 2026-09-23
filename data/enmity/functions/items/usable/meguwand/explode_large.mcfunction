@@ -1,5 +1,5 @@
 particle dust 0.8 0 0 20 ~ ~ ~ 5 5 5 10 4000 force
-summon creeper ~ ~ ~ {ExplosionRadius:80,Fuse:0,Tags:["enmity.modified"],Fire:20s,Silent:1b}
+summon creeper ~ ~ ~ {ExplosionRadius:1,Fuse:0,Tags:["enmity.modified"],Fire:20s,Silent:1b}
 summon tnt_minecart ~-0.64 ~0.38 ~-0.81
 summon tnt_minecart ~0.29 ~-0.72 ~0.15
 summon tnt_minecart ~-0.91 ~0.05 ~0.63
