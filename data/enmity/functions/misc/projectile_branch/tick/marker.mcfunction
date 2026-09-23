@@ -45,3 +45,5 @@ execute if entity @s[tag=enmity.healing_bolt] at @s run function enmity:items/us
 execute if entity @s[tag=enmity.liquidator] at @s run function enmity:items/usable/liquidator/tick
 execute if entity @s[tag=enmity.sky_fracture] at @s run function enmity:items/usable/sky_fracture/tick
 execute if entity @s[tag=enmity.pistol_bullet] at @s run function enmity:items/usable/magical_pistol/tick_projectile
+execute if entity @s[tag=enmity.meguwand] at @s run function enmity:items/usable/meguwand/tick
+execute if entity @s[tag=enmity.meguwand_ring] at @s run function enmity:items/usable/meguwand/tick_ring

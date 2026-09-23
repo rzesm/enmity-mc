@@ -51,3 +51,4 @@ execute if score @s enmity.guide matches 111050 run function enmity:guide/tabs/m
 execute if score @s enmity.guide matches 111051 run function enmity:guide/tabs/main/items/magic_weapons/magical_boomstick
 execute if score @s enmity.guide matches 111052 run function enmity:guide/tabs/main/items/magic_weapons/magical_blaster
 execute if score @s enmity.guide matches 111053 run function enmity:guide/tabs/main/items/magic_weapons/magical_rifle
+execute if score @s enmity.guide matches 111054 run function enmity:guide/tabs/main/items/magic_weapons/meguwand

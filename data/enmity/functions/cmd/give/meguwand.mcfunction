@@ -1,0 +1,2 @@
+
+give @s minecraft:warped_fungus_on_a_stick{display:{Name:'{"text":"Meguwand","italic":false}',Lore:['[{"text":"Cooldown: ","italic":false,"color":"gray"},{"text":"2000","color":"white"}]','[{"text":"Consumes all mana the caster has.","italic":false,"color":"gray"}]','[{"text":"Calls forth a massive explosion.","italic":false,"color":"gray"}]','[{"text":"Its size depends on your mana.","italic":false,"color":"gray"}]']},Unbreakable:1,HideFlags:4,CustomModelData:130,Enmity:1,Enmity.CustomCrafting:1,Enmity.ItemGroups:["usable","weapons"]} 1
