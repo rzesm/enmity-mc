@@ -1,6 +1,6 @@
 tellraw @s [{"text":"-===============[","color":"gray"},{"text":"TEMPERATURE","color":"white","bold":true},{"text":"]=============-","color":"gray"}]
 
-tellraw @s [{"text":"The Temperature is one of the new dangers added by Enmity. It mainly affects players in the early game, and can be measured using a [","color":"gray"},{"text":"Thermometer","hoverEvent":{"action":"show_text","value":{"text":"Thermometer"}},"clickEvent":{"action":"run_command","value":"/trigger enmity.guide set 113015"}},{"text":"]. Later it often can be ignored thanks to special accessories.\n\nHere's a list of factors that can affect your body temperature:","color":"gray"}]
+tellraw @s [{"text":"The Temperature is one of the new dangers added by Enmity. It mainly affects players in the early game, and can be measured using a [","color":"gray"},{"text":"Thermometer","color":"white","hoverEvent":{"action":"show_text","value":{"text":"Thermometer"}},"clickEvent":{"action":"run_command","value":"/trigger enmity.guide set 113015"}},{"text":"]. Later it often can be ignored thanks to special accessories.\n\nHere's a list of factors that can affect your body temperature:","color":"gray"}]
 tellraw @s [{"text":"   - biome type","color":"gray"}]
 tellraw @s [{"text":"   - dimension","color":"gray"}]
 tellraw @s [{"text":"   - height","color":"gray"}]

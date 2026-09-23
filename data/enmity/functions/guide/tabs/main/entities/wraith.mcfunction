@@ -1,8 +1,8 @@
 tellraw @s [{"text":"-=================[","color":"gray"},{"text":"WRAITH","color":"white","bold":true},{"text":"]=================-","color":"gray"}]
 
-tellraw @s [{"text":"The Wraith is a hostile mob that drops some very useful crafting resources. It is usually best to keep your distance (especially in hardmode) from this enemy.","color":"gray"}]
-tellraw @s [{"text":"\nBehaviour:\n   In pre-hardmode, slowly approaches a player and deals a large amount of damage with melee. When in close proximity to a player, it inflicts Slowness onto them; the level increases with the player being closer. In Hardmode the Wraith gains an ability to shoot homing souls.","color":"gray"}]
+tellraw @s [{"text":"The Wraith is a hostile mob that drops some very useful crafting resources. It is usually best to keep your distance (especially post-Wither) from this enemy.","color":"gray"}]
+tellraw @s [{"text":"\nBehaviour:\n   Pre-Wither, slowly approaches a player and deals a large amount of damage with melee. When in close proximity to a player, it inflicts Slowness onto them; the level increases with the player being closer. Post-Wither, the Wraith gains an ability to shoot homing souls.","color":"gray"}]
 tellraw @s [{"text":"\nSpawning:\n   Spawns in soul sand valleys instead of Skeletons. It can also be found deep underground in the Overworld and rarely on the surface.","color":"gray"}]
-tellraw @s [{"text":"\nDrops:\n   Soul Essence (1-2)\n   Soul in a Jar (3% chance)\n   Lightly Matter (30% chance, in hardmode, if killed in the Overworld)\n   Nightly Matter (30% chance, in hardmode, if killed in the Nether)","color":"gray"}]
+tellraw @s [{"text":"\nDrops:\n   Soul Essence (1-2)\n   Soul in a Jar (3% chance)\n   Lightly Matter (30% chance, post-Wither, if killed in the Overworld)\n   Nightly Matter (30% chance, post-Wither, if killed in the Nether)","color":"gray"}]
 
 tellraw @s [{"text":"-==============[","color":"gray"},{"text":" ◀ ","color":"white","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"Back"}},"clickEvent":{"action":"run_command","value":"/trigger enmity.guide set 12"}},{"text":"]=====[","color":"gray"},{"text":" ⌂ ","color":"white","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"Home"}},"clickEvent":{"action":"run_command","value":"/trigger enmity.guide"}},{"text":"]==============-","color":"gray"}]

@@ -1,5 +1,5 @@
-tellraw @s [{"text":"-================[","color":"gray"},{"text":"HARDMODE","color":"white","bold":true},{"text":"]===============-","color":"gray"}]
+tellraw @s [{"text":"-==============[","color":"gray"},{"text":"POST-WITHER","color":"white","bold":true},{"text":"]==============-","color":"gray"}]
 
-tellraw @s [{"text":"Hardmode is one of the 2 main stages of the game and takes place after pre-hardmode. It starts after a certain goal has been achieved, and brings major changes to the world. Most enemies become much more powerful and new items are available.","color":"gray"}]
+tellraw @s [{"text":"Post-Wither is one of the 2 main stages of the game. It starts as the Wither is slain, and brings major changes to the world. Most enemies become much more powerful and new items are available.","color":"gray"}]
 
 tellraw @s [{"text":"-==============[","color":"gray"},{"text":" ◀ ","color":"white","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"Back"}},"clickEvent":{"action":"run_command","value":"/trigger enmity.guide set 13"}},{"text":"]=====[","color":"gray"},{"text":" ⌂ ","color":"white","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"Home"}},"clickEvent":{"action":"run_command","value":"/trigger enmity.guide"}},{"text":"]==============-","color":"gray"}]
