@@ -12,6 +12,8 @@ execute as @a run function enmity:misc/projectiles/sentries/sentry_counter
 execute as @a if score @s enmity.snt_ct > @s enmity.max_snt run function enmity:misc/projectiles/sentries/remove_sentry
 execute as @a at @s run function enmity:ambience/set_biome_type
 execute as @a at @s run function enmity:misc/surface_detection
+
+execute if score %difficulty enmity.value matches 1 as @a at @s unless score @s enmity.temp_cd matches -10..10 unless score @s enmity.temp matches -4..4 run function enmity:misc/health_modification/temperature_damage
 execute unless score @s enmity.temp_cd matches -10..10 unless score @s enmity.temp matches -3..3 if score @s enmity.temp matches -4..4 run function enmity:misc/health_modification/temperature_damage
 
 # Stats
