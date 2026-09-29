@@ -1,4 +1,5 @@
-tag @e[type=#enmity:enemies,tag=!enmity.sentry,tag=!enmity.tamed,tag=!enmity.projectile,limit=1,sort=nearest] add enmity.this
+tag @e[tag=enmity.target,limit=1,sort=nearest] add enmity.this
+tag @e remove enmity.target
 execute store result score @s enmity.math_a run data get entity @e[type=#enmity:enemies,tag=enmity.this,limit=1] Pos[0] 100
 execute store result score @s enmity.math_c run data get entity @e[type=#enmity:enemies,tag=enmity.this,limit=1] Pos[2] 100
 execute store result score @s enmity.math_d run data get entity @e[type=#enmity:enemies,tag=enmity.this,limit=1] Motion[0] 1000

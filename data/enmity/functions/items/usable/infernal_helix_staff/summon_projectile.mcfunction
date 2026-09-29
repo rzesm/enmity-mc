@@ -5,5 +5,6 @@ scoreboard players set @e[type=bat,tag=enmity.infernal_helix_projectile,tag=enmi
 scoreboard players operation @e[type=bat,tag=enmity.new] enmity.dmg += @s enmity.dmg_bst
 effect give @e[type=bat,tag=enmity.new] invisibility 1000000 255 true
 scoreboard players operation @e[type=bat,tag=enmity.new] enmity.player_id = @s enmity.player_id
+scoreboard players operation @e[type=bat,tag=enmity.new] enmity.player_targeting = @s enmity.player_targeting
 tag @e[type=bat,tag=enmity.new] remove enmity.new
 scoreboard players set @s enmity.cooldown 0

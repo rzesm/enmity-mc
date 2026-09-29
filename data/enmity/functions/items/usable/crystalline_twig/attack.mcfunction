@@ -13,6 +13,8 @@ execute as @e[type=marker,tag=enmity.new] store result entity @s Rotation[1] flo
 scoreboard players operation @e[type=marker,tag=enmity.new] enmity.player_id = @s enmity.player_id
 scoreboard players set @e[type=marker,tag=enmity.new] enmity.dmg 5
 scoreboard players operation @e[type=marker,tag=enmity.new] enmity.dmg += @s enmity.dmg_bst
+scoreboard players operation @e[type=marker,tag=enmity.new] enmity.player_id = @s enmity.player_id
+scoreboard players operation @e[type=marker,tag=enmity.new] enmity.player_targeting = @s enmity.player_targeting
 tag @e[type=marker,tag=enmity.new] remove enmity.new
 scoreboard players set @s enmity.cooldown 0
 data modify entity @s ArmorItems[3].tag.CustomModelData set value 1016

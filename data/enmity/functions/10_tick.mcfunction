@@ -23,7 +23,7 @@ execute as @a[predicate=enmity:entity/has_armor/enmity_helmet] run function enmi
 
 execute as @e[type=area_effect_cloud,tag=enmity.charm_of_decay] at @s run function enmity:items/usable/charm_of_decay/10_tick
 execute as @e[type=marker,tag=enmity.crystalline_sparks] at @s run function enmity:items/armor/crystalline/sparks_10_tick
-execute as @e[type=area_effect_cloud,tag=enmity.sacred_storm] at @s if entity @e[type=#enmity:enemies,tag=!enmity.sentry,tag=!enmity.tamed,tag=!enmity.projectile,distance=..24,limit=1] run function enmity:items/usable/sacred_storm/10_tick
+execute as @e[type=area_effect_cloud,tag=enmity.sacred_storm] at @s run function enmity:items/usable/sacred_storm/10_tick
 execute as @e[type=area_effect_cloud,tag=enmity.cloud] at @s run function enmity:items/usable/cloud_staff/10_tick
 execute as @e[type=armor_stand,tag=enmity.crystalline_cluster] at @s run function enmity:items/usable/crystalline_twig/10_tick
 execute as @e[type=marker,tag=enmity.warped_glyph] at @s run function enmity:items/accessories/warped_glyph/check_for_player

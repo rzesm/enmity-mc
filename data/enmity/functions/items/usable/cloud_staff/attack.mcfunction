@@ -1,5 +1,5 @@
-execute if entity @s[tag=!enmity.red] run tag @e[type=#enmity:enemies,tag=!enmity.sentry,tag=!enmity.tamed,tag=!enmity.projectile,sort=nearest,limit=1] add enmity.this
-execute if entity @s[tag=enmity.red] run tag @e[type=!#enmity:not_living,tag=!enmity.sentry,tag=!enmity.projectile,sort=nearest,limit=1] add enmity.this
+tag @e[tag=enmity.target,limit=1,sort=nearest] add enmity.this
+tag @e remove enmity.target
 execute store result score @s enmity.math_a run data get entity @e[type=!#enmity:not_living,tag=enmity.this,limit=1] Pos[0] 100
 execute store result score @s enmity.math_c run data get entity @e[type=!#enmity:not_living,tag=enmity.this,limit=1] Pos[2] 100
 execute store result score @s enmity.math_d run data get entity @e[type=!#enmity:not_living,tag=enmity.this,limit=1] Motion[0] 1000
@@ -17,7 +17,7 @@ execute if entity @e[type=!#enmity:not_living,tag=enmity.this,distance=12.000000
 execute if entity @e[type=!#enmity:not_living,tag=enmity.this,distance=15.0000000000001..] run scoreboard players operation @s enmity.math_f *= %const_5 enmity.value
 scoreboard players operation @s enmity.math_a += @s enmity.math_d
 scoreboard players operation @s enmity.math_c += @s enmity.math_f
-execute as @e[type=!#enmity:not_living,tag=enmity.this] at @s anchored eyes run summon marker ^ ^ ^ {Tags:["enmity.direction_anchor"]}
+execute as @e[type=!#enmity:not_living,tag=enmity.this] at @s anchored eyes positioned ^ ^ ^ run summon marker ~ ~-0.5 ~ {Tags:["enmity.direction_anchor"]}
 execute store result entity @e[type=marker,tag=enmity.direction_anchor,limit=1] Pos[0] double 0.01 run scoreboard players get @s enmity.math_a
 execute store result entity @e[type=marker,tag=enmity.direction_anchor,limit=1] Pos[2] double 0.01 run scoreboard players get @s enmity.math_c
 tag @e[type=!#enmity:not_living,tag=enmity.this] remove enmity.this

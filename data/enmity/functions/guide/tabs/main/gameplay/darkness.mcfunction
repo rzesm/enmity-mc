@@ -1,6 +1,6 @@
 tellraw @s [{"text":"-================[","color":"gray"},{"text":"DARKNESS","color":"white","bold":true},{"text":"]===============-","color":"gray"}]
 
-tellraw @s [{"text":"The ubiquitous darkness is a new threat that spices up the gameplay. Dealing with it is the most tedious in early game, as the player does not have any source of Night Vision.\n","color":"gray"}]
+tellraw @s [{"text":"The ubiquitous darkness is a new threat present in Enmity. Dealing with it is the most tedious in early game, as the player does not have any source of Night Vision.\n","color":"gray"}]
 tellraw @s [{"text":"For early game, it's recommended to avoid staying outside during the nights. Later, you may want to try and get a [","color":"gray"},{"text":"Luminous Jewel","color":"white","hoverEvent":{"action":"show_text","value":{"text":"Luminous Jewel"}},"clickEvent":{"action":"run_command","value":"/trigger enmity.guide set 112029"}},{"text":"].","color":"gray"}]
 
 tellraw @s [{"text":"-==============[","color":"gray"},{"text":" ◀ ","color":"white","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"Back"}},"clickEvent":{"action":"run_command","value":"/trigger enmity.guide set 13"}},{"text":"]=====[","color":"gray"},{"text":" ⌂ ","color":"white","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"Home"}},"clickEvent":{"action":"run_command","value":"/trigger enmity.guide"}},{"text":"]==============-","color":"gray"}]

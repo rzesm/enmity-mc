@@ -12,4 +12,5 @@ scoreboard players set @e[type=armor_stand,tag=enmity.new] enmity.age 59
 scoreboard players set @e[type=armor_stand,tag=enmity.new] enmity.dmg 15
 scoreboard players operation @e[type=armor_stand,tag=enmity.new] enmity.player_id = @s enmity.player_id
 scoreboard players operation @e[type=armor_stand,tag=enmity.new] enmity.dmg_bst += @s enmity.dmg_bst
+scoreboard players operation @e[type=armor_stand,tag=enmity.new] enmity.player_targeting = @s enmity.player_targeting
 tag @e[type=armor_stand,tag=enmity.new] remove enmity.new
